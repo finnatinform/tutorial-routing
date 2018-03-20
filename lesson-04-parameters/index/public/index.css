@@ -1,0 +1,51 @@
+/*Style Implementation*/
+body,
+html,
+#id-application,
+.application{
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden ;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    float: left;
+}
+.page{
+    width: 100%;
+    height: calc( 100% - 80px );
+    float: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > ul{
+    float: right;
+}
+header > ul > li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
