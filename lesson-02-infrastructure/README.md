@@ -1,6 +1,7 @@
 # Lesson 02: Infrastructure
 
-## What we need
+Nicht programmieren, nur zeigen. Ist immer ausgangsbasis für "index ordner"
+
 
 ## How we get it
 First we create a basic npm project with all the features, that we already now.
