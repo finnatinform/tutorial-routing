@@ -13,6 +13,5 @@ export class Protected extends React.Component<{}, {}> {
         } else {
             return (<Redirect to='/login' />);
         }
-
     }
 }
